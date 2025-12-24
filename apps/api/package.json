@@ -1,0 +1,10 @@
+{
+  "name": "api",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "uvicorn main:app --reload --host 0.0.0.0 --port 8000",
+    "build": "echo 'No build step for Python'",
+    "lint": "echo 'Linting not configured yet'",
+    "format": "echo 'Formatting not configured yet'"
+  }
+}
